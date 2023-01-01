@@ -1,7 +1,7 @@
 from setuptools import setup, find_namespace_packages
 
 setup(
-    name="Clean_folder",
+    name="Clean_folder_dmitriykositsyn",
     version="0.0.1",
     description="Clean folder by Python",
     author="Dmytro Kosytsin",
@@ -9,7 +9,7 @@ setup(
     url="https://github.com/dmitriykos/HW_7",
     license="MIT",
     classifiers=[
-        "Programming Languages :: Python :: 3",
+        "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent"],
     packages=find_namespace_packages(),
