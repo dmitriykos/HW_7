@@ -79,7 +79,7 @@ def sort_files(path_folder: Path) -> str:  # отримаємо список ц�
                 elif file.suffix not in cat and file.is_file():
                     shutil.move(file, work_dir / "Others")
             except Exception as err:
-                # print(f"[ERROR]: {err}")
+                print(f"[ERROR]: {err}")
                 continue
 
 
