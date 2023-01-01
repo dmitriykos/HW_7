@@ -1,3 +1,0 @@
-clean_folder
-dist
-venv

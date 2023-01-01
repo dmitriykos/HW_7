@@ -2,7 +2,7 @@ from setuptools import setup, find_namespace_packages
 
 setup(
     name="Clean_folder_dmitriykositsyn",
-    version="0.0.1",
+    version="0.0.2",
     description="Clean folder by Python",
     author="Dmytro Kosytsin",
     author_email="dmitriykositsyn@gmail.com",
