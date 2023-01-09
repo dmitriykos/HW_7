@@ -2,7 +2,7 @@ from setuptools import setup, find_namespace_packages
 
 setup(
     name="Clean_folder_dmitriykositsyn",
-    version="0.0.2",
+    version="0.0.4",
     description="Clean folder by Python",
     author="Dmytro Kosytsin",
     author_email="dmitriykositsyn@gmail.com",
@@ -15,5 +15,5 @@ setup(
     packages=find_namespace_packages(),
     data_files=[("clean_folder", ["clean_folder/catalog.json"])],
     include_package_data=True,
-    entry_points={"console_scripts": ["startclean=clean_folder.clean.sort"]}
+    entry_points={"console_scripts": ["startclean=clean_folder.clean:sort"]}
 )

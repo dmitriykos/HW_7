@@ -14,7 +14,7 @@ def create_target_folders(path_folder: Path) -> dict:
             result = json.load(f)
         return result
 # створення тек з назвою ключа в категорії
-    CATEGORIES = create_categories("catalog.json")
+    CATEGORIES = create_categories("clean_folder/catalog.json")
     for i in CATEGORIES:
         # якщо такої теки немає, то стоворюєио її
         if not path_folder.joinpath(i).exists():
